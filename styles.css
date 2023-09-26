@@ -1,14 +1,8 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 .header-image{
     display: flex;
     justify-content: space-between;
     height: 30px;
     padding: 0 1rem 0 1rem ;
-
 }
 #headerback img{
     width: 100%;
@@ -29,7 +23,6 @@ button{
     width: 80px;
     height: 40px;
     margin-top: 10px;
-    border-color: white;
 
 }
 #kart{
@@ -44,7 +37,6 @@ button{
 .items{
     display: inline-block;
     height:200px;
-    /* width: 100px; */
     padding: 10px;
     
 }
@@ -53,7 +45,12 @@ span{
     font-size: larger;
     font-weight: 900;
 }
+/* .section{
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
 
+} */
 .heading-text{
     position: absolute;
     color: white;
@@ -71,9 +68,10 @@ span{
         height: 400px;
     }
 }
-#footer-img{
+
+#footer-imgh{
     border-radius: 50%;
-    height: 250px;
+    height: 200px;
     width: 250px;
 }
 footer{
@@ -87,10 +85,17 @@ margin-top: 15px;
 #footer-text{
     text-align: end;
 }
+
 @media  (max-width:600px) {
     .heading-text{
         font-size: small;
     }
 
     
+}
+
+@media (max-width:355px) {
+    header{
+        width:auto
+    }
 }
